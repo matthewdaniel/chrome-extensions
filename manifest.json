@@ -1,0 +1,12 @@
+{
+  "name": "No add outlook",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Remove adds to clean up outlook.",
+  "content_scripts" : [
+       {
+       "matches" : ["https://*.mail.live.com/*"],
+       "css" : ["remove-adds.css"]
+       }
+  ]
+}
