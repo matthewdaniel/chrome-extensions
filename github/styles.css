@@ -1,0 +1,22 @@
+div.container.hentry {
+	width: 90% !important;
+}
+
+div.container.hentry div.frame {
+	width: 0;
+}
+div.container.hentry div.frame-center {
+	width: 100% !important;
+}
+
+div.commit-desc {
+	display: inherit !important;
+}
+
+div#ng canvas {
+	width: 100%;
+}
+
+#slider .frames {
+	width: 100% !important;
+}
